@@ -1,4 +1,4 @@
-```markdown
+
 <h3>Welcome to OffboardingGPT v0.1</h3>
 
 To get started:
@@ -33,4 +33,3 @@ cd /downloads/pdfbot
     ```sh
     streamlit run app.py
     ```
-```
