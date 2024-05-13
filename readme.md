@@ -27,9 +27,14 @@ cd /downloads/pdfbot
     pip install -r requirements.txt
     ```
 
-5. Add `OPENAI_API_KEY` in the `.env` file at the root directory. You can get a free API key at [OpenAI](https://platform.openai.com).
+5. Create local .env File:
+    ```sh
+    mv .env.example .env
+    ```
 
-6. To run your app locally:
+6. Add `OPENAI_API_KEY` in the `.env` file at the root directory. You can get a free API key at [OpenAI](https://platform.openai.com).
+
+7. To run your app locally:
     ```sh
     streamlit run app.py
     ```
